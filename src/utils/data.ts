@@ -1,3 +1,5 @@
+const company_name = "Montem Flumen Construction and Robotics";
+
 const services = [
     {
         title: "Social media marketing",
@@ -37,4 +39,4 @@ const services = [
     },
 ];
 
-export { services };
+export { services, company_name };
