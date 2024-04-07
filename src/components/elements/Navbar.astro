@@ -1,4 +1,5 @@
 ---
+import { company_name } from "../../utils/data";
 import BtnLink from "../shared/BtnLink.astro";
 import Container from "../shared/Container.astro";
 import  Navitem from "../shared/Navitem.astro";
@@ -9,17 +10,17 @@ const navItems = [
         text:"Home"
     },
     {
-        href:"#services",
-        text:"Services"
+        href:"/projects",
+        text:"Projects"
     },
     {
-        href:"#about-us",
+        href:"/about",
         text:"About us"
     },
-    {
-        href:"#features",
-        text:"Features"
-    },
+    // {
+    //     href:"#features",
+    //     text:"Features"
+    // },
 ]
 ---
 
@@ -35,8 +36,8 @@ const navItems = [
                         <span class="absolute w-4 h-4 -bottom-1 -left-1 bg-primary rounded-md rotate-45"></span>
                         <span class="absolute w-2 h-2 rounded-full bg-heading-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
                     </div>
-                    <div class="inline-flex text-lg font-semibold text-heading-1">
-                        AgenceX
+                    <div class="inline-flex text-lg font-semibold text-heading-1 max-w-[250px] overflow-hidden ml-3">
+                        {company_name}
                     </div>
                 </a>
             </div>

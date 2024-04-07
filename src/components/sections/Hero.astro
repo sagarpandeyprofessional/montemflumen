@@ -1,4 +1,5 @@
 ---
+import { company_name, tag_line, description } from "../../utils/data";
 import Button from "../shared/Button.astro";
 import Container from "../shared/Container.astro";
 import Paragraph from "../shared/Paragraph.astro";
@@ -18,11 +19,10 @@ import ByNumber from "./ByNumber.astro";
             
             <h1 class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight xl:text-6xl/tight
              font-bold text-heading-1">
-             Social Media  <span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600">Marketing</span> is the Best Ever.
+             {company_name}<span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600"><p/>{tag_line}</span>
             </h1>
             <Paragraph className="mt-8">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores repellat perspiciatis aspernatur quis voluptatum porro incidunt, 
-                libero sequi quos eos velit
+                {description}
             </Paragraph>
             <div class="mt-10  w-full flex max-w-md mx-auto lg:mx-0">
                 <div class="flex sm:flex-row flex-col gap-5 w-full">
@@ -54,5 +54,5 @@ import ByNumber from "./ByNumber.astro";
         </div>
     </Container>
 
-    <ByNumber/>
+    <!-- <ByNumber/> -->
 </section>
