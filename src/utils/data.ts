@@ -19,7 +19,7 @@ const social_links = [
     {
         name: "Phone",
         link: "tel:+821096959805",
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"  viewBox="2 -5 40 40"><path d="M23.45 20.93a3 3 0 0 0-4.25 0l-1.45 1.45a26.14 26.14 0 0 1-4.51-3.62 26.62 26.62 0 0 1-3.62-4.51l1.45-1.45a3 3 0 0 0 0-4.25L8.24 5.73a2.93 2.93 0 0 0-2.11-.88h0A3 3 0 0 0 4 5.73L2.64 7.08A6.37 6.37 0 0 0 1 12.33c.32 3.75 2.78 8.26 6.57 12.06S15.92 30.64 19.67 31a7.87 7.87 0 0 0 .84 0 6.07 6.07 0 0 0 4.41-1.64L26.27 28a3 3 0 0 0 .88-2.13 2.93 2.93 0 0 0-.88-2.11zm1.41 5.66L23.5 27.94a4.57 4.57 0 0 1-3.66 1c-3.25-.28-7.39-2.58-10.81-6S3.31 15.41 3 12.16a4.53 4.53 0 0 1 1-3.66L5.41 7.14a1 1 0 0 1 .71-.29h0a1 1 0 0 1 .71.29L9.66 10a1 1 0 0 1 0 1.41l-2 2a1 1 0 0 0-.16 1.21 27.49 27.49 0 0 0 4.33 5.58 27.49 27.49 0 0 0 5.58 4.33 1 1 0 0 0 1.21-.16l2-2a1 1 0 0 1 1.41 0l2.83 2.83h0a1 1 0 0 1 .29.71A1 1 0 0 1 24.86 26.59zM26.6 5.39A14.92 14.92 0 0 0 16 1a1 1 0 1 0 0 2A13 13 0 0 1 29 16.11a1 1 0 0 0 1 1h0a1 1 0 0 0 1-1A14.91 14.91 0 0 0 26.6 5.39z"></path><path d="M20.91,11.11a6,6,0,0,1,1.77,4.31,1,1,0,0,0,1,1h0a1,1,0,0,0,1-1,8,8,0,0,0-8-8.1,1,1,0,1,0,0,2A6,6,0,0,1,20.91,11.11Z"></path></svg>`    
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"  viewBox="2 -5 40 40"><path d="M23.45 20.93a3 3 0 0 0-4.25 0l-1.45 1.45a26.14 26.14 0 0 1-4.51-3.62 26.62 26.62 0 0 1-3.62-4.51l1.45-1.45a3 3 0 0 0 0-4.25L8.24 5.73a2.93 2.93 0 0 0-2.11-.88h0A3 3 0 0 0 4 5.73L2.64 7.08A6.37 6.37 0 0 0 1 12.33c.32 3.75 2.78 8.26 6.57 12.06S15.92 30.64 19.67 31a7.87 7.87 0 0 0 .84 0 6.07 6.07 0 0 0 4.41-1.64L26.27 28a3 3 0 0 0 .88-2.13 2.93 2.93 0 0 0-.88-2.11zm1.41 5.66L23.5 27.94a4.57 4.57 0 0 1-3.66 1c-3.25-.28-7.39-2.58-10.81-6S3.31 15.41 3 12.16a4.53 4.53 0 0 1 1-3.66L5.41 7.14a1 1 0 0 1 .71-.29h0a1 1 0 0 1 .71.29L9.66 10a1 1 0 0 1 0 1.41l-2 2a1 1 0 0 0-.16 1.21 27.49 27.49 0 0 0 4.33 5.58 27.49 27.49 0 0 0 5.58 4.33 1 1 0 0 0 1.21-.16l2-2a1 1 0 0 1 1.41 0l2.83 2.83h0a1 1 0 0 1 .29.71A1 1 0 0 1 24.86 26.59zM26.6 5.39A14.92 14.92 0 0 0 16 1a1 1 0 1 0 0 2A13 13 0 0 1 29 16.11a1 1 0 0 0 1 1h0a1 1 0 0 0 1-1A14.91 14.91 0 0 0 26.6 5.39z"></path><path d="M20.91,11.11a6,6,0,0,1,1.77,4.31,1,1,0,0,0,1,1h0a1,1,0,0,0,1-1,8,8,0,0,0-8-8.1,1,1,0,1,0,0,2A6,6,0,0,1,20.91,11.11Z"></path></svg>`
     },
 ]
 
@@ -71,4 +71,57 @@ const services = [
     }
 ];
 
-export { services, company_name, tag_line, description, mission_short, mission_long, vision_short, vision_long, about_us, social_links };
+
+const about_data = [
+    {
+        img: "/about-us/egor.png",
+        linkedin: "https://linkedin.com/in/egor-shubin-a20bb3257",
+        name: "Egor Shubin",
+        job: "CEO / Co-Founder",
+        description: ",MS IBM, Bachelor in Civil Engineering"
+    },
+    {
+        img: "/about-us/sagar.jpg",
+        linkedin: "https://www.linkedin.com/in/sagar1998m",
+        name: "Sagar Pandey",
+        job: "Marketing Manager / Co-Founder",
+        description: ",MS IBM, Bachelor in Multimedia Arts"
+    },
+ {
+        img: "/about-us/mustari.JPG",
+        linkedin: "",
+        name: "Mushtariy",
+        job: "Computer Vision Engineer / Co-Founder",
+        description: "Bachelor in AI in Yonsei University"
+    },
+ {
+        img: "/about-us/sebastian.png",
+        linkedin: "",
+        name: "Sebastian Sampudio",
+        job: "Hardware Engineer",
+        description: "Bachelor in EM Engineering, NASA"
+    },
+ {
+        img: "/about-us/emmanuel.png",
+        linkedin: "",
+        name: "Emmanual",
+        job: "Framework Engineer",
+        description: "PhD in Chungnam University"
+    },
+ {
+        img: "/about-us/roberto.jpg",
+        linkedin: "",
+        name: "Roberto Herrera",
+        job: "AI Engineer/ Developer",
+        description: "Bachelors in AI Engineering"
+    },
+ {
+        img: "/about-us/niranjan.jpg",
+        linkedin: "",
+        name: "Niranjan Dahal",
+        job: "Advisor",
+        description: "MSC Physics TU"
+    },
+]
+
+export { services, company_name, tag_line, description, mission_short, mission_long, vision_short, vision_long, about_us, social_links, about_data };

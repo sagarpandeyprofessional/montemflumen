@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Photos from '../components/sections/Photos.astro';
+import { company_name } from '../utils/data';
+---
+
+<Layout title={company_name}>
+	<main class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
+		<Photos />
+	</main>
+</Layout>	

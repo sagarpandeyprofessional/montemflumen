@@ -6,7 +6,7 @@ import  Navitem from "../shared/Navitem.astro";
 
 const navItems = [
     {
-        href:"#",
+        href:"/",
         text:"Home"
     },
     {
@@ -28,9 +28,9 @@ const navItems = [
     <Container>
         <nav class="w-full flex justify-between gap-6 relative">
             <!-- logo -->
-            <div class="min-w-max inline-flex relative">
+            <div class="inline-flex relative">
                 <a href="/" class="relative flex items-center gap-3">
-                    <img src="/images/logo.svg" alt="logo" class="w-10 h-10" />
+                    <img src="/logos/logo.png" alt="logo" class="w-20 h-20 rounded-md" />
                     <div class="inline-flex text-lg font-semibold text-heading-1 max-w-[250px] overflow-hidden ml-3">
                         {company_name}
                     </div>
