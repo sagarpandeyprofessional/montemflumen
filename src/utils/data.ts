@@ -78,14 +78,14 @@ const about_data = [
         linkedin: "https://linkedin.com/in/egor-shubin-a20bb3257",
         name: "Egor Shubin",
         job: "CEO / Co-Founder",
-        description: ",MS IBM, Bachelor in Civil Engineering"
+        description: "MS IBM, Bachelor in Civil Engineering"
     },
     {
         img: "/about-us/sagar.jpg",
         linkedin: "https://www.linkedin.com/in/sagar1998m",
         name: "Sagar Pandey",
         job: "Marketing Manager / Co-Founder",
-        description: ",MS IBM, Bachelor in Multimedia Arts"
+        description: "MS IBM, Bachelor in Multimedia Arts"
     },
  {
         img: "/about-us/mustari.JPG",
