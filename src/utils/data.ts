@@ -97,7 +97,7 @@ const about_data = [
  {
         img: "/about-us/sebastian.png",
         linkedin: "",
-        name: "Sebastian Sampudio",
+        name: "Sebastian Sancudo",
         job: "Hardware Engineer",
         description: "Bachelor in EM Engineering, NASA"
     },
