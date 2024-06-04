@@ -94,12 +94,19 @@ const about_data = [
         job: "Computer Vision Engineer / Co-Founder",
         description: "Bachelor in AI in Yonsei University"
     },
- {
+/* {
         img: "/about-us/sebastian.png",
         linkedin: "",
         name: "Sebastian Samudio",
         job: "Hardware Engineer",
         description: "Bachelor in EM Engineering, NASA"
+    },*/
+{
+        img: "/about-us/john_paul.webp",
+        linkedin: "www.linkedin.com/in/john-paul-paredes-diez-de-medina-644922296",
+        name: "John Paul Paredes",
+        job: "AI Engineer",
+        description: "Bachelor in AI"
     },
  {
         img: "/about-us/emmanuel.png",
