@@ -103,7 +103,7 @@ const about_data = [
     },*/
 {
         img: "/about-us/john_paul.webp",
-        linkedin: "www.linkedin.com/in/john-paul-paredes-diez-de-medina-644922296",
+        linkedin: "https://www.linkedin.com/in/john-paul-paredes-diez-de-medina-644922296",
         name: "John Paul Paredes",
         job: "AI Engineer",
         description: "Bachelor in AI"
