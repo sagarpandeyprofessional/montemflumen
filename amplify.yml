@@ -11,6 +11,8 @@ frontend:
     baseDirectory: .amplify-hosting
     files:
       - '**/*'
+    index:
+      path: src/pages/index.astro
   cache:
     paths:
       - node_modules/**/*
