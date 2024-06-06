@@ -6,10 +6,9 @@ frontend:
         - npm ci
     build:
       commands:
-        - env > .env  # Caution: Ensure this is what you intend
         - npm run build
   artifacts:
-    baseDirectory: build  # This should match your actual build output directory
+    baseDirectory: .amplify-hosting  # This should match your actual build output directory
     files:
       - '**/*'
     index:
