@@ -11,8 +11,6 @@ frontend:
     baseDirectory: .amplify-hosting  # This should match your actual build output directory
     files:
       - '**/*'
-    index:
-      path: src/pages/index.astro
   cache:
     paths:
       - node_modules/**/*  # Ensure the path is correct and utilized properly
