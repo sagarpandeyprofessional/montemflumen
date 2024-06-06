@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import http from 'node:http';
 import { TLSSocket } from 'node:tls';
 import 'cookie';
-import { l as levels, d as dateTimeFormat, A as AstroCookies, a as attachCookiesToResponse, c as createAPIContext, b as callEndpoint, e as callMiddleware, L as Logger, f as AstroIntegrationLogger, g as getSetCookiesFromResponse, manifest } from './manifest_cc5b4244.mjs';
+import { l as levels, d as dateTimeFormat, A as AstroCookies, a as attachCookiesToResponse, c as createAPIContext, b as callEndpoint, e as callMiddleware, L as Logger, f as AstroIntegrationLogger, g as getSetCookiesFromResponse, manifest } from './manifest_ee07aa26.mjs';
 import { yellow, dim, bold, cyan, red, reset } from 'kleur/colors';
 import { trimSlashes, joinPaths, slash, prependForwardSlash, removeTrailingForwardSlash, collapseDuplicateSlashes } from '@astrojs/internal-helpers/path';
 import { A as AstroError, G as GetStaticPathsRequired, i as InvalidGetStaticPathsReturn, j as InvalidGetStaticPathsEntry, k as GetStaticPathsExpectedParams, l as GetStaticPathsInvalidRouteParam, P as PageNumberParamNotFound, n as GetStaticPathsRemovedRSSHelper, N as NoMatchingStaticPathFound, o as PrerenderDynamicEndpointPathCollide, p as LocalsNotAnObject, R as ReservedSlotName, q as renderSlotToString, t as renderJSX, v as chunkToString, C as ClientAddressNotAvailable, S as StaticClientAddressNotAvailable, w as ResponseSentError, x as renderPage$1 } from './chunks/astro_f852e106.mjs';

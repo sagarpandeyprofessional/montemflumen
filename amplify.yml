@@ -8,7 +8,7 @@ frontend:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: .amplify-hosting  # This should match your actual build output directory
+    baseDirectory: /.amplify-hosting  # This should match your actual build output directory
     files:
       - '**/*'
   cache:
